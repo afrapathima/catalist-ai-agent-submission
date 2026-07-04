@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Research-to-Output Agent</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>AI Research-to-Output Agent</h1>
+
+<p>
+    Paste research notes below and generate structured AI analysis.
+</p>
+
+<textarea id="researchInput" placeholder="Enter research notes..."></textarea>
+
+<button onclick="generateReport()">
+    Generate AI Report
+</button>
+
+<!-- 🔥 LOADING STATE -->
+<div id="loading" style="display:none; margin-top:10px;">
+    <p>🧠 AI is analyzing data...</p>
+</div>
+
+<div id="output">
+
+    <h2>Generated Report</h2>
+
+    <div id="report">
+        <p>Report will appear here...</p>
+    </div>
+
+</div>
+
+ <hr>
+
+        <p style="text-align:center; color:gray;">
+            AI Research-to-Output Agent Prototype<br>
+            Created for the Catalist Media Agent Prototyping Internship Challenge
+        </p>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+
